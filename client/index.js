@@ -5,7 +5,6 @@ import history from "./history";
 import App from "./app";
 
 // establishes socket connection
-import "./socket";
 
 ReactDOM.render(
   <Router history={history}>

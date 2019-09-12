@@ -43554,6 +43554,17 @@ var _react2 = _interopRequireDefault(_react);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var Navbar = exports.Navbar = function Navbar() {
+  window.onscroll = function () {
+    myFunction();
+  };
+  function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+      navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+      navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+  }
   return _react2.default.createElement(
     "div",
     { className: "w3-top" },

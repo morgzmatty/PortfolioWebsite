@@ -43523,6 +43523,8 @@ var _portfolio = __webpack_require__(397);
 
 var _contact = __webpack_require__(398);
 
+var _footer = __webpack_require__(400);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 //import Routes from "./routes";
@@ -43535,7 +43537,8 @@ var App = function App() {
     _react2.default.createElement(_logo.Logo, null),
     _react2.default.createElement(_about.About, null),
     _react2.default.createElement(_portfolio.Portfolio, null),
-    _react2.default.createElement(_contact.Contact, null)
+    _react2.default.createElement(_contact.Contact, null),
+    _react2.default.createElement(_footer.Footer, null)
   );
 };
 
@@ -43922,7 +43925,7 @@ var Portfolio = exports.Portfolio = function Portfolio() {
     width: "100%"
   };
   var loadMore = {
-    "margin-top": "64px"
+    marginTop: "64px"
   };
   function onClick(element) {
     document.getElementById("img01").src = element.src;
@@ -44189,6 +44192,63 @@ var Contact = exports.Contact = function Contact() {
             )
           )
         )
+      )
+    )
+  );
+};
+
+/***/ }),
+/* 399 */,
+/* 400 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.Footer = undefined;
+
+var _react = __webpack_require__(9);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Footer = exports.Footer = function Footer() {
+  return _react2.default.createElement(
+    "footer",
+    { className: "w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off" },
+    _react2.default.createElement(
+      "a",
+      { href: "#home", className: "w3-button w3-light-grey" },
+      _react2.default.createElement("i", { className: "fa fa-arrow-up w3-margin-right" }),
+      "To the top"
+    ),
+    _react2.default.createElement(
+      "div",
+      { className: "w3-xlarge w3-section" },
+      _react2.default.createElement("i", { className: "fa fa-facebook-official w3-hover-opacity" }),
+      _react2.default.createElement("i", { className: "fa fa-instagram w3-hover-opacity" }),
+      _react2.default.createElement("i", { className: "fa fa-snapchat w3-hover-opacity" }),
+      _react2.default.createElement("i", { className: "fa fa-pinterest-p w3-hover-opacity" }),
+      _react2.default.createElement("i", { className: "fa fa-twitter w3-hover-opacity" }),
+      _react2.default.createElement("i", { className: "fa fa-linkedin w3-hover-opacity" })
+    ),
+    _react2.default.createElement(
+      "p",
+      null,
+      "Powered by",
+      _react2.default.createElement(
+        "a",
+        {
+          href: "https://www.w3schools.com/w3css/default.asp",
+          title: "W3.CSS",
+          target: "_blank",
+          className: "w3-hover-text-green"
+        },
+        "w3.css"
       )
     )
   );

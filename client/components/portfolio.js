@@ -5,7 +5,7 @@ export const Portfolio = () => {
     width: "100%"
   };
   let loadMore = {
-    "margin-top": "64px"
+    marginTop: "64px"
   };
   function onClick(element) {
     document.getElementById("img01").src = element.src;

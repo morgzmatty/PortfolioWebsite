@@ -19,6 +19,23 @@ export const Navbar = () => {
       );
     }
   }
+  function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+    } else {
+      x.className = x.className.replace(" w3-show", "");
+    }
+  }
+  let paraStyle = {
+    color: "#777",
+    backgroundColor: "white",
+    padding: "50px 80px",
+    textAlign: "justify"
+  };
+  let paraDemo = {
+    textAlign: "center"
+  };
   return (
     <div className="w3-top">
       <div className="w3-bar" id="myNavbar">

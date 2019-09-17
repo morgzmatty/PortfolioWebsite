@@ -44315,11 +44315,11 @@ var MyComponent = exports.MyComponent = function MyComponent() {
       { bgImage: image1, strength: 500 },
       _react2.default.createElement(
         "div",
-        { style: { height: 500 } },
+        { className: "intro-image", style: { height: 500 } },
         _react2.default.createElement(
           "div",
-          { style: insideStyles },
-          "HTML inside the parallax"
+          { className: "intro-name" },
+          "Morgan Mattone"
         )
       )
     ),
@@ -44398,7 +44398,6 @@ var MyComponent = exports.MyComponent = function MyComponent() {
         )
       )
     ),
-    _react2.default.createElement("div", { style: { height: 500 } }),
     _react2.default.createElement(
       "h2",
       null,

@@ -22,8 +22,8 @@ const image4 =
 export const MyComponent = () => (
   <div>
     <Parallax bgImage={image1} strength={500}>
-      <div style={{ height: 500 }}>
-        <div style={insideStyles}>HTML inside the parallax</div>
+      <div className="intro-image" style={{ height: 500 }}>
+        <div className="intro-name">Morgan Mattone</div>
       </div>
     </Parallax>
     <h1>| | |</h1>
@@ -63,7 +63,7 @@ export const MyComponent = () => (
         <div style={insideStyles}>renderProp</div>
       </div>
     </Parallax>
-    <div style={{ height: 500 }} />
+    {/* <div style={{ height: 500 }} /> */}
     <h2>{"\u2728"}</h2>
   </div>
 );

@@ -46,6 +46,17 @@ html {
   min-height: 100%;
 }
 
+.intro-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-name {
+  color: #000 !important;
+  background-color: #f1f1f1 !important;
+}
+
 .w3-wide {
   letter-spacing: 10px;
 }

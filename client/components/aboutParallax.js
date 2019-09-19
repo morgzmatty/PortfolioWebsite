@@ -22,11 +22,11 @@ const image4 =
 export const MyComponent = () => (
   <div>
     <Parallax bgImage={image1} strength={500}>
-      <div className="intro-image" style={{ height: 500 }}>
-        <div className="intro-name">Morgan Mattone</div>
+      <div style={{ height: 500 }}>
+        <div style={insideStyles}>Morgan Mattone</div>
       </div>
     </Parallax>
-    <h1>| | |</h1>
+    {/* <h1>| | |</h1>
     <Parallax bgImage={image3} blur={{ min: -1, max: 3 }}>
       <div style={{ height: 500 }}>
         <div style={insideStyles}>Dynamic Blur</div>
@@ -64,6 +64,6 @@ export const MyComponent = () => (
       </div>
     </Parallax>
     {/* <div style={{ height: 500 }} /> */}
-    <h2>{"\u2728"}</h2>
+    {/* <h2>{"\u2728"}</h2> */}
   </div>
 );

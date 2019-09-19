@@ -41,9 +41,7 @@ export const About = () => {
             </p>
             <br />
             <img
-              src={
-                "https://data.whicdn.com/images/309504303/superthumb.jpg?t=1521920035"
-              }
+              src={"aboutMorgy.jpeg"}
               className="w3-round w3-image w3-opacity w3-hover-opacity-off"
               alt="Photo of Me"
               width="500"

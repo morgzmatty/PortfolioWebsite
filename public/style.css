@@ -46,6 +46,16 @@ html {
   min-height: 100%;
 }
 
+.footer-logos {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-logos a {
+  padding: 5px;
+  text-decoration: none;
+}
+
 .intro-image {
   display: flex;
   justify-content: center;

@@ -55,7 +55,7 @@ export const Navbar = () => {
         <a href="#portfolio" className="w3-bar-item w3-button w3-hide-small">
           <i className="fa fa-th"></i> PORTFOLIO
         </a>
-        <a href="#contact" className="w3-bar-item w3-button w3-hide-small">
+        <a className="w3-bar-item w3-button w3-hide-small">
           <i className="fa fa-envelope"></i> CONTACT
         </a>
         <a
@@ -83,11 +83,7 @@ export const Navbar = () => {
         >
           PORTFOLIO
         </a>
-        <a
-          href="#contact"
-          className="w3-bar-item w3-button"
-          onclick="toggleFunction()"
-        >
+        <a className="w3-bar-item w3-button" onclick="toggleFunction()">
           CONTACT
         </a>
         <a href="#" className="w3-bar-item w3-button">
